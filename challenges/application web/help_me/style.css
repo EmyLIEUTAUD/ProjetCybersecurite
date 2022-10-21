@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 8rem;
+}
+
+p{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 4rem;
+}
+
+*{
+    background-color: black;
+    color: white;
+}
+
+#flag{
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 8rem;
+    border-color: aquamarine;
+    border-width: 5%;
+    padding: 1%;
+    margin-left: 40%;
+}
+
+#flag:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#message{
+    font-size: 2rem;
+    display: none;
+}
+
+div p{
+    font-size: 2rem;
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Help me</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript">
+            function display_message(id){
+                var message = document.getElementById(id);
+                if(message.style.display == 'block'){
+                    message.style.display= 'none';
+                }
+                else{
+                    message.style.display = 'block';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Help me !</h1>
+        <p>J'ai perdu mon flag, saurais-tu le retrouver ?</p>
+        <button id="flag" onclick="display_message('message')">Retrouver le flag</button>
+        <!-- Afficher le flag PolyFlag{Bien_Caché!} -->
+        <div id="message">
+            <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+            <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+            <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+            <p>Dommage, ce n'est pas ici !</p>
+        </div>
+    </body>
+</html>

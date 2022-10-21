@@ -1,0 +1,5 @@
+Challenges en lien avec la stéganographie : 
+	- Fichier audio
+	- Image : modifier RGB
+	- Image : modifier LSB
+	- Vidéo

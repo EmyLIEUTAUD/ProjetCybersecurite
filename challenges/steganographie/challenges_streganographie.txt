@@ -3,3 +3,4 @@ Challenges en lien avec la stéganographie :
 	- Image : modifier RGB
 	- Image : modifier LSB
 	- Vidéo
+https://stylesuxx.github.io/steganography/

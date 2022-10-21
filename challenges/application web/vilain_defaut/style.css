@@ -1,0 +1,522 @@
+img#imLogo{
+	box-sizing: border-box;
+	vertical-align: middle;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+}
+
+h1{
+	box-sizing: border-box;
+	margin-bottom: 0.5;
+	font-size: 140%;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+    font-family: sans-serif 18.368px;
+}
+
+legend{
+    box-sizing : border-box;
+    display : block;
+    width : initial;
+    max-width : 100%;
+    padding-top : 5;
+    padding-right : 10;
+    padding-bottom : 5;
+    padding-left : 10;
+    margin-bottom : 0.5;
+    font-size : 1rem;
+    line-height : inherit;
+    color : rgb(68, 68, 68);
+    white-space : normal;
+    font-weight : bold;
+    border-top-left-radius : 2px;
+    border-top-right-radius : 2px;
+    border-bottom-right-radius : 2px;
+    border-bottom-left-radius : 2px;
+    border-top-color : rgb(170, 170, 170);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(170, 170, 170);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(170, 170, 170);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(170, 170, 170);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    background-color : rgb(255, 255, 255);
+    box-shadow : rgb(187, 187, 187) 3px 3px 15px;
+}
+
+fieldset{
+    box-sizing : border-box;
+    min-width : 0px;
+    padding-top : 0.5;
+    padding-right : 0.5;
+    padding-bottom : 0.5;
+    padding-left : 0.5;
+    margin-top : 1;
+    border-top-color : rgb(170, 170, 170);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(170, 170, 170);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(170, 170, 170);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(170, 170, 170);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    border-top-left-radius : 4px;
+    border-top-right-radius : 4px;
+    border-bottom-right-radius : 0px;
+    border-bottom-left-radius : 0px;
+    background-color : rgb(238, 238, 238);
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-image : none;
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+    box-shadow : rgb(255, 255, 255) 1px 1px 2px inset;
+}
+
+select#sel-lang.autosubmit{
+    box-sizing : border-box;
+    margin-top : 6;
+    margin-right : 6;
+    margin-bottom : 6;
+    margin-left : 6;
+    font-family : inherit;
+    font-size : 1em;
+    line-height : inherit;
+    text-transform : none;
+    overflow-wrap : normal;
+    outline-color : currentcolor;
+    outline-style : none;
+    outline-width : medium;
+    transition-property : all;
+    transition-duration : 0.2s;
+    transition-timing-function : ease;
+    transition-delay : 0s;
+    border-top-left-radius : 2px;
+    border-top-right-radius : 2px;
+    border-bottom-right-radius : 2px;
+    border-bottom-left-radius : 2px;
+    border-top-color : rgb(187, 187, 187);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(187, 187, 187);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(187, 187, 187);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(187, 187, 187);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    color : rgb(51, 51, 51);
+    padding-top : 3;
+    padding-right : 3;
+    padding-bottom : 3;
+    padding-left : 3;
+    background-color : rgb(255, 255, 255);
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-image : none;
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+}
+
+div.container{
+	box-sizing: border-box;
+	text-align: left;
+	width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#content_page{
+	box-sizing: border-box;
+	margin-right: 0.5;
+	margin-left: 0.5;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 95%;
+	float: none;
+}
+
+fieldset.tblFooters{
+    box-sizing : border-box;
+    min-width : 0px;
+    padding-top : 0.5;
+    padding-right : 0.5;
+    padding-bottom : 0.5;
+    padding-left : 0.5;
+    margin-bottom : 0.5;
+    border-top-color : currentcolor;
+    border-top-style : none;
+    border-right-color : rgb(170, 170, 170);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(170, 170, 170);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(170, 170, 170);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    border-top-left-radius : 0px;
+    border-top-right-radius : 0px;
+    border-bottom-right-radius : 4px;
+    border-bottom-left-radius : 4px;
+    background-color : rgb(211, 220, 227);
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-image : none;
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+    box-shadow : rgb(255, 255, 255) 1px 1px 2px inset;
+    text-align : right;
+    float : none;
+    clear : both;
+    font-weight : normal;
+    color : rgb(0, 0, 0);
+}
+
+label{
+	box-sizing: border-box;
+	display: inline-block;
+	margin-bottom: 0.5;
+	width: 10em;
+	font-weight: bolder;
+	margin-left: 2;
+}
+
+input#input_username.textfield{
+    box-sizing : border-box;
+    margin-top : 6;
+    margin-right : 6;
+    margin-bottom : 6;
+    margin-left : 6;
+    font-family : inherit;
+    font-size : 1em;
+    line-height : inherit;
+    overflow-x : visible;
+    overflow-y : visible;
+    outline-color : currentcolor;
+    outline-style : none;
+    outline-width : medium;
+    border-top-left-radius : 2px;
+    border-top-right-radius : 2px;
+    border-bottom-right-radius : 2px;
+    border-bottom-left-radius : 2px;
+    background-color : rgb(255, 255, 255);
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-image : none;
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+    border-top-color : rgb(124, 124, 124);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(124, 124, 124);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(124, 124, 124);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(124, 124, 124);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    color : rgb(85, 85, 85);
+    padding-top : 4;
+    padding-right : 4;
+    padding-bottom : 4;
+    padding-left : 4;
+    transition-property : all;
+    transition-duration : 0.2s;
+    transition-timing-function : ease;
+    transition-delay : 0s;
+    box-shadow : rgb(170, 170, 170) 0px 1px 3px;
+    width : 14em;
+}
+
+input#input_password.textfield{
+    box-sizing : border-box;
+    margin-top : 6;
+    margin-right : 6;
+    margin-bottom : 6;
+    margin-left : 6;
+    font-family : inherit;
+    font-size : 1em;
+    line-height : inherit;
+    overflow-x : visible;
+    overflow-y : visible;
+    outline-color : currentcolor;
+    outline-style : none;
+    outline-width : medium;
+    border-top-left-radius : 2px;
+    border-top-right-radius : 2px;
+    border-bottom-right-radius : 2px;
+    border-bottom-left-radius : 2px;
+    background-color : rgb(255, 255, 255);
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-image : none;
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+    border-top-color : rgb(124, 124, 124);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(124, 124, 124);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(124, 124, 124);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(124, 124, 124);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    color : rgb(85, 85, 85);
+    padding-top : 4;
+    padding-right : 4;
+    padding-bottom : 4;
+    padding-left : 4;
+    transition-property : all;
+    transition-duration : 0.2s;
+    transition-timing-function : ease;
+    transition-delay : 0s;
+    box-shadow : rgb(170, 170, 170) 0px 1px 3px;
+    width : 14em;
+}
+
+select#select_server{
+    box-sizing : border-box;
+    margin-top : 6;
+    margin-right : 6;
+    margin-bottom : 6;
+    margin-left : 6;
+    font-family : inherit;
+    font-size : 1em;
+    line-height : inherit;
+    text-transform : none;
+    overflow-wrap : normal;
+    outline-color : currentcolor;
+    outline-style : none;
+    outline-width : medium;
+    transition-property : all;
+    transition-duration : 0.2s;
+    transition-timing-function : ease;
+    transition-delay : 0s;
+    border-top-left-radius : 2px;
+    border-top-right-radius : 2px;
+    border-bottom-right-radius : 2px;
+    border-bottom-left-radius : 2px;
+    border-top-color : rgb(187, 187, 187);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(187, 187, 187);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(187, 187, 187);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(187, 187, 187);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    color : rgb(51, 51, 51);
+    padding-top : 3;
+    padding-right : 3;
+    padding-bottom : 3;
+    padding-left : 3;
+    background-color : rgb(255, 255, 255);
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-image : none;
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+    width : 14em;
+}
+
+*{
+    font-family: sans-serif 13.12px;
+}
+
+input#input_go.btn.btn-primary{
+    box-sizing : border-box;
+    font-family : inherit;
+    font-size : 1em;
+    line-height : 1.15;
+    overflow-x : visible;
+    overflow-y : visible;
+    appearance : button;
+    cursor : pointer;
+    display : inline-block;
+    font-weight : 700;
+    color : rgb(33, 37, 41);
+    text-align : center;
+    vertical-align : middle;
+    user-select : none;
+    background-color : rgb(202, 202, 202);
+    border-top-color : rgb(170, 170, 170);
+    border-top-style : solid;
+    border-top-width : 1;
+    border-right-color : rgb(170, 170, 170);
+    border-right-style : solid;
+    border-right-width : 1;
+    border-bottom-color : rgb(170, 170, 170);
+    border-bottom-style : solid;
+    border-bottom-width : 1;
+    border-left-color : rgb(170, 170, 170);
+    border-left-style : solid;
+    border-left-width : 1;
+    border-image-outset : 0;
+    border-image-repeat : stretch;
+    border-image-slice : 100%;
+    border-image-source : none;
+    border-image-width : 1;
+    padding-top : 0.375;
+    padding-right : 0.75;
+    padding-bottom : 0.375;
+    padding-left : 0.75;
+    border-top-left-radius : 0.85rem;
+    border-top-right-radius : 0.85rem;
+    border-bottom-right-radius : 0.85rem;
+    border-bottom-left-radius : 0.85rem;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-decoration-color : currentcolor;
+    background-position-x : 0%;
+    background-position-y : 0%;
+    background-repeat : repeat-x;
+    background-attachment : scroll;
+    background-image : linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221));
+    background-size : auto;
+    background-origin : padding-box;
+    background-clip : border-box;
+    box-shadow : rgba(255, 255, 255, 0.15) 0px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 1px 1px;
+    outline-color : currentcolor;
+    outline-style : none;
+    outline-width : medium;
+    text-shadow : rgb(255, 255, 255) 0px 1px 0px;
+}
+
+a.logo{
+    box-sizing : border-box;
+    color : rgb(0, 0, 0);
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-decoration-color : currentcolor;
+    text-decoration-thickness : auto;
+    background-color : transparent;
+    cursor : pointer;
+    outline-color : currentcolor;
+    outline-style : none;
+    outline-width : medium;
+    display : block;
+    text-align : center;
+}
+
+div.item{
+	box-sizing: border-box;
+}
+
+body#loginform {
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.15;
+	border-radius: .85rem;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+	-webkit-appearance: button;
+}
+
+#gg{
+    font-size: 6rem;
+}
+
+#flag{
+    border-width: 2rem;
+    border-radius: 3;
+}
+

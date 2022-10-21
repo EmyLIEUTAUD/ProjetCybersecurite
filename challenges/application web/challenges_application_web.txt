@@ -2,5 +2,6 @@ Challenges en lien avec les applications web :
 	- Injections SQL
 	- Injections XSS
 	- Aller chercher dans le css pour afficher le flag
-	- Aller chercher dans les commentaires html pour avoir le flag
+	- Aller chercher dans les commentaires html pour avoir le flag (help_me)
+	- Modifier le code html pour accéder au flag
 	- faire une redirection

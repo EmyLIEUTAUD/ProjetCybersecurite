@@ -7,8 +7,10 @@
     <body>
         <?php
         $flag = false;
-        if($_POST['username']=='root'){
-            if($_POST['password']==''){
+        $real_username = preg_replace("/[\"'%()@$.!&?_: #\/-]/", "", $_POST['username']);
+        $reel_password = preg_replace("/[\"'%()@$.!&?_: #\/-]/", "", $_POST['password']);
+        if($real_username=='root'){
+            if($reel_password==''){
                 $flag = true;
                 echo '<h1 id="gg">Bien joué !<h1>';
                 echo '<p>Il ne faut JAMAIS garder un mot de passe par défaut.</p>';

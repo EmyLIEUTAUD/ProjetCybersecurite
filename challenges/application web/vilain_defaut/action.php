@@ -14,7 +14,7 @@
                 $flag = true;
                 echo '<h1 id="gg">Bien joué !<h1>';
                 echo '<p>Il ne faut JAMAIS garder un mot de passe par défaut.</p>';
-                echo '<p id="flag">PolyFlag{Never_Use...DEFAULT!}</p>';
+                echo '<p id="flag">PolyMatrix{Never_Use...DEFAULT!}</p>';
             }
         }
         if(!$flag){

@@ -1,7 +1,10 @@
 Challenges en lien avec les applications web : 
 	- Injections SQL
-	- Injections XSS
+	- Injections XSS (ask_for_answer)
 	- Aller chercher dans le css pour afficher le flag
 	- Aller chercher dans les commentaires html pour avoir le flag (help_me)
-	- Modifier le code html pour accéder au flag
+	- Modifier le code html pour accéder au flag (inactif)
 	- faire une redirection
+	- injection de commandes
+	- inclusion de fichiers
+	- utiliser les mots de passe par défaut pour se connecter (vilain_defaut)

@@ -13,7 +13,7 @@
             <input type="text" name="valeur">
             <input type="submit" name="">
         </form>
-        <p><?php system('echo ' . $_GET['valeur']); ?></p>
+        <p><?php if(isset($_GET['valeur'])){system('echo ' . $_GET['valeur']);} ?></p>
     </body>
 </html>
 
